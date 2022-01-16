@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+    background-color: #f18973;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 3px;
+    /*avrunder kanter*/
+
+}
+
+.navbar ul li:hover{
+    background-color: #bc5a45;
+}
+
+@media(max-width: 600px){
+    .navbar ul{
+        flex-direction: column;
+    }
+
+
+    .navbar ul li{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.hovedbilde{
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0)),url(./Bilder/vaksinebilde.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    /*background-size: cover;*/
+    height: 80vh;
+    position: relative;
+}
+
+.overskrift{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+}
+
+
+.infoboks1{
+    margin: 40px;
+    text-align: center;
+    border-bottom: 4px solid #bc5a45;
+    font-size: 25px;
+}
+
+.bilde{
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.3)),url(./Bilder/vaksinebilde2.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+.overskrift2{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+}
+
+.overskrift2 p{
+    font-size: 20px;
+    
+}
+
+.oppfriskningsdose{
+    margin: 40px;
+    text-align: center;
+    border-bottom: 4px solid #bc5a45;
+    font-size: 25px;
+}
+
+.oppfriskningsdose h3{
+    font-size: 40px;
+    
+}
+
